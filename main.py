@@ -15,12 +15,16 @@ class Console():
     def ui(self):
         os.system(f'cls && title [DNG] Discord Nitro Generator  ^|  For Help join discord.gg/kaneki' if os.name == "nt" else "clear")
         print(center(f"""\n\n
-██████╗ ███╗   ██╗ ██████╗ 
-██╔══██╗████╗  ██║██╔════╝            ~ Discord Nitro Generator ~
-██║  ██║██╔██╗ ██║██║  ███╗     
-██║  ██║██║╚██╗██║██║   ██║     github.com/kanekiWeb ~ skulldev.ga
-██████╔╝██║ ╚████║╚██████╔╝ 
-╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ \n\n
+▄▄▄█████▓ ██▀███  ▓█████ ███▄    █  ▓█████▄ ▓██   ██▓
+▓  ██▒ ▓▒▓██ ▒ ██▒▓█   ▀ ██ ▀█   █  ▒██▀ ██▌ ▒██  ██▒
+▒ ▓██░ ▒░▓██ ░▄█ ▒▒███  ▓██  ▀█ ██▒ ░██   █▌  ▒██ ██░
+░ ▓██▓ ░ ▒██▀▀█▄  ▒▓█  ▄▓██▒  ▐▌██▒▒░▓█▄   ▌  ░ ▐██▓░
+  ▒██▒ ░ ░██▓ ▒██▒░▒████▒██░   ▓██░░░▒████▓   ░ ██▒▓░
+  ▒ ░░   ░ ▒▓ ░▒▓░░░ ▒░ ░ ▒░   ▒ ▒ ░ ▒▒▓  ▒    ██▒▒▒ 
+    ░      ░▒ ░ ▒░ ░ ░  ░ ░░   ░ ▒░  ░ ▒  ▒  ▓██ ░▒░ 
+  ░ ░       ░   ░    ░     ░   ░ ░   ░ ░  ░  ▒ ▒ ░░  
+            ░        ░           ░     ░     ░ ░     
+ \n\n
               """).replace('█', Fore.CYAN+"█"+Fore.RESET).replace('~', Fore.CYAN+"~"+Fore.RESET).replace('-', Fore.CYAN+"-"+Fore.RESET))
 
     def printer(self, color, status, code):
