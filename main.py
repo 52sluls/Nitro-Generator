@@ -13,7 +13,7 @@ def center(var:str, space:int=None): # From Pycenter
 
 class Console():        
     def ui(self):
-        os.system(f'cls && title [DNG] Discord Nitro Generator  ^|  For Help join discord.gg/kaneki' if os.name == "nt" else "clear")
+        os.system(f'cls && title [DNG] Discord Nitro Generator  ^| ' if os.name == "nt" else "clear")
         print(center(f"""\n\n
 ▄▄▄█████▓ ██▀███  ▓█████ ███▄    █  ▓█████▄ ▓██   ██▓
 ▓  ██▒ ▓▒▓██ ▒ ██▒▓█   ▀ ██ ▀█   █  ▒██▀ ██▌ ▒██  ██▒
